@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC2A2DD91F120438000A67FC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2A2DD81F120438000A67FC /* art.scnassets */; };
+		BC2A2DDB1F1204A6000A67FC /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2A2DDA1F1204A6000A67FC /* SpaceShip.swift */; };
 		BC7B30CE1F0E8D8600376E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B30CD1F0E8D8600376E57 /* AppDelegate.swift */; };
 		BC7B30D01F0E8D8600376E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7B30CF1F0E8D8600376E57 /* ViewController.swift */; };
 		BC7B30D31F0E8D8600376E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7B30D11F0E8D8600376E57 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC2A2DD81F120438000A67FC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ../../../../Desktop/art.scnassets; sourceTree = "<group>"; };
+		BC2A2DDA1F1204A6000A67FC /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
 		BC7B30CA1F0E8D8600376E57 /* ARKitGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7B30CD1F0E8D8600376E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC7B30CF1F0E8D8600376E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				BC7B30CD1F0E8D8600376E57 /* AppDelegate.swift */,
 				BC7B30CF1F0E8D8600376E57 /* ViewController.swift */,
+				BC2A2DDA1F1204A6000A67FC /* SpaceShip.swift */,
 				BC7B30D11F0E8D8600376E57 /* Main.storyboard */,
+				BC2A2DD81F120438000A67FC /* art.scnassets */,
 				BC7B30D71F0E8D8600376E57 /* Assets.xcassets */,
 				BC7B30D91F0E8D8600376E57 /* LaunchScreen.storyboard */,
 				BC7B30DC1F0E8D8600376E57 /* Info.plist */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC7B30DB1F0E8D8600376E57 /* LaunchScreen.storyboard in Resources */,
+				BC2A2DD91F120438000A67FC /* art.scnassets in Resources */,
 				BC7B30D81F0E8D8600376E57 /* Assets.xcassets in Resources */,
 				BC7B30D31F0E8D8600376E57 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				BC7B30D01F0E8D8600376E57 /* ViewController.swift in Sources */,
 				BC7B30D61F0E8D8600376E57 /* ARKitGame.xcdatamodeld in Sources */,
+				BC2A2DDB1F1204A6000A67FC /* SpaceShip.swift in Sources */,
 				BC7B30CE1F0E8D8600376E57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +324,7 @@
 				BC7B30E11F0E8D8600376E57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
